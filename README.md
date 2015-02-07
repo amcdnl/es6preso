@@ -9,7 +9,13 @@ Visit [Slides.com](http://slides.com/austinmcdaniel/deck) for the presentation s
 
 ## Requirements
 
-- NodesJS
-- NPM
-- Bower
-- GulpJS
+- NodesJS & NPM
+- [Bower](http://bower.io/)
+- [GulpJS](http://gulpjs.com/)
+- [JSPM](http://jspm.io/)
+
+## Install
+
+1. `npm install`
+2. `gulp watch serve`
+3. Browse to `http://localhost:9000`

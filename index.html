@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset=" utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width = device-width, minimal-ui, initial-scale = 1, user-scalable = no" />
+    <meta name="apple-mobile-web-app-title" content="Demo App">
+    <title>Demo App</title>
+    <base href="/">
+    <link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+</head>
+<body class="blue-grey lighten-4">
+
+    <noscript>
+        <div class="deprecation-warning">
+          <h1>Please enable Javascript</h1>
+          <p>Demo requires your browser to have Javascript enabled.
+          <a href="http://enable-javascript.com" target="_blank">Learn more</a></p>
+        </div>
+    </noscript>
+
+     <nav>
+      <div class="nav-wrapper light-blue darken-4">
+        <a href="#" class="brand-logo">Welcome!</a>
+      </div>
+    </nav>
+
+    <div class="card-panel">
+      <span class="blue-text text-darken-2">
+        <h3>Lazy Load'n</h3>
+        <a class="waves-effect waves-light btn" id="fontIncrease">Increase Font</a>
+      </span>
+    </div>
+
+    <div class="card-panel">
+      <span class="blue-text text-darken-2">
+        
+        <h3>Classes - Animalz</h3>
+ 
+        <div class="input-field" style="width:300px">
+          <input id="animal_name" type="text" class="validate">
+          <label for="animal_name">Animal Name</label>
+        </div>
+
+        <a class="waves-effect waves-light btn" id="createAnimal">Create Animal</a>
+        <a class="waves-effect waves-light btn" id="createPanda">Create Panda</a>
+
+      </span>
+    </div>
+
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+
+    <script>
+        System.import('app');
+    </script>
+</body>
+</html>

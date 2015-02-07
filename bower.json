@@ -1,0 +1,13 @@
+{
+  "name": "es6preso",
+  "version": "1.0.0",
+  "ignore": [
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "jquery": "2.1.x",
+    "plugin-css": "https://github.com/systemjs/plugin-css.git",
+    "materialize": "~0.95.1"
+  }
+}
